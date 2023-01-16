@@ -58,17 +58,7 @@ class UsersController extends AppController
             $user = $this->Users->patchEntity($user, $this->request->getData());
 
             $image=$this->request->getData('images'); 
-
-            print_r($image);
-             print_r($image);
-             print_r($image);
-             print_r($image);
-             print_r($image);
-             print_r($image);
-             
-
-
-            
+  
             $name = $image->getClientFilename();
 
             $targetPath=WWW_ROOT.'img'.DS.$name;
