@@ -60,6 +60,14 @@ class UsersController extends AppController
             $image=$this->request->getData('images'); 
 
             print_r($image);
+             print_r($image);
+             print_r($image);
+             print_r($image);
+             print_r($image);
+             print_r($image);
+             
+
+
             
             $name = $image->getClientFilename();
 
