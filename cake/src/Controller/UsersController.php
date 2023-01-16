@@ -62,7 +62,7 @@ class UsersController extends AppController
             $name = $image->getClientFilename();
 
             $targetPath=WWW_ROOT.'img'.DS.$name;
-
+    kajal
             if($name)
 
             $image->moveTo($targetPath);
